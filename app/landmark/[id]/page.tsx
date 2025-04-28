@@ -7,12 +7,12 @@ import ShareButton from "@/components/landmark/ShareButton";
 import MapLandmark from "@/components/map/MapLandmark";
 import { redirect } from "next/navigation";
 
-interface PageProps {
-  params: { id: string };
-}
+type PageProps = {
+  params: Promise<{ id: string }>;
+};
 
 export default async function LandmarkDetail({ params }: PageProps) {
-  const { id } = params;
+  const { id } = await params;
 
   const landmark = await fetchLandmarkDetail({ id });
 
