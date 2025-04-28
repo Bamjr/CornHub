@@ -11,8 +11,6 @@ import { Luckiestfont } from "@/utils/fonts";
 import ImageInput from "@/components/form/ImageInput";
 
 
-
-
 const CreateProfile = async () => {
     return (
         <section className={`${Luckiestfont.variable}`}>
