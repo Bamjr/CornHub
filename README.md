@@ -38,4 +38,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 =======
 # CornHub
 A parody website that you could upload and explore Corn-related facts
->>>>>>> 5c4edf7b5d2d90014c56f6193b0dcb3938174547
