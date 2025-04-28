@@ -5,7 +5,7 @@ import FavoriteToggleButton from "./FavoriteToggleButton"
 import Link from "next/link"
 
 const CornCard = ({ corn }: { corn: CornCardProps }) => {
-    const { name, image, id, description, location, lat, lng, category, price } = corn
+    const { name, image, id, description, location, price } = corn
     return (
         <article className="group relative p-4 rounded-md">
             <Link href={`/landmark/${id}`}>

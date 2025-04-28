@@ -1,6 +1,5 @@
 import LoadingCard from "@/components/card/LoadingCard"
 import CornContainer from "@/components/home/CornContainer"
-import { Button } from "@/components/ui/button"
 import { Suspense } from "react"
 
 const page = async({ searchParams }: { searchParams: { search?: string,category?:string } }) => {

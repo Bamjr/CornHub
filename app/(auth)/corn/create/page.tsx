@@ -8,8 +8,6 @@ import MapLandmark from "@/components/map/MapLandmark";
 import ProvincesInput from "@/components/form/ProvincesInput";
 import TextareaInput from "@/components/form/TextareaInput";
 import { Luckiestfont } from "@/utils/fonts";
-import { currentUser } from "@clerk/nextjs/server";
-import { redirect } from "next/navigation";
 import ImageInput from "@/components/form/ImageInput";
 
 

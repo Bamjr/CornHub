@@ -1,6 +1,6 @@
 import CornCard from "../card/CornCard"
 import { CornCardProps } from "@/utils/type"
-import LoadingCard from "../card/LoadingCard"
+
 
 const CornLists = ({ corns }: { corns: CornCardProps[] }) => {
     return (
