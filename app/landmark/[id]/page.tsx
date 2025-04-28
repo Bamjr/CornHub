@@ -7,9 +7,11 @@ import ShareButton from "@/components/landmark/ShareButton";
 import MapLandmark from "@/components/map/MapLandmark";
 import { redirect } from "next/navigation";
 
-type Params = { id: string };
+interface PageProps {
+  params: { id: string };
+}
 
-const LandmarkDetail = async ({ params }: { params: Params }) => {
+export default async function LandmarkDetail({ params }: PageProps) {
   const { id } = params;
 
   const landmark = await fetchLandmarkDetail({ id });
@@ -38,8 +40,6 @@ const LandmarkDetail = async ({ params }: { params: Params }) => {
       </section>
     </section>
   );
-};
-
-export default LandmarkDetail;
+}
 
   
