@@ -7,6 +7,7 @@ import ShareButton from "@/components/landmark/ShareButton"
 import MapLandmark from "@/components/map/MapLandmark"
 import { redirect } from "next/navigation"
 
+
 type PageProps = {
     params: { id: string }
   };
