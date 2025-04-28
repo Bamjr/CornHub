@@ -34,7 +34,7 @@ const Hero = ({ corns }: { corns: CornCardProps[] }) => {
                 {
                     corns.map((corn) => {
                         return (
-                            <div>
+                            
                                 <SwiperSlide key={corn.image} className="group">
                                     <div className="relative rounded-md overflow-hidden">
                                         <img
@@ -50,7 +50,7 @@ const Hero = ({ corns }: { corns: CornCardProps[] }) => {
                                     </div>
 
                                 </SwiperSlide>
-                            </div>
+                            
 
                         )
 
