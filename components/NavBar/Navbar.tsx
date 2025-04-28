@@ -1,7 +1,6 @@
 import { DarkMode } from "./Darkmode";
 import DropdownListMenu from "./DropdownListMenu";
 import Logo from "./Logo";
-import Search from "./Search";
 import { Popcorn } from 'lucide-react';
 import { SlackerFont } from "@/utils/fonts";
 import SearchBar from "./Search";
